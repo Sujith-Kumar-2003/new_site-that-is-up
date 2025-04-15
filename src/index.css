@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  overflow-y: scroll; /* Enable vertical scrolling */
+}
+
+.App::-webkit-scrollbar {
+  width: 8px;
+}
+
+.App::-webkit-scrollbar-track {
+  background: black; /* Black scrollbar track */
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: white; /* White scroller */
+  border-radius: 8px; /* Rounded corners for the scroller */
+}
+
+.App::-webkit-scrollbar-thumb:hover {
+  background: #e5e5e5; /* Slightly lighter scroller on hover */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
