@@ -76,7 +76,7 @@ const projects = [
 
 // Styled components
 const Title = styled.h1`
-  padding: 2px;
+  padding: 1px;
   color: #Ffffff; /* Gold color */
   font-size: clamp(20px, 6vw, 35px); /* Ensure proper font size */
   display: flex;
@@ -87,7 +87,7 @@ const IconWrapper = styled.div`
   svg {
     color: #F9C74F; /* Gold color for the icon */
     width: 2em; /* Set the size */
-    height: 2em; /* Set the size */
+    height: 1.5em; /* Set the size */
     margin-right: 8px; /* Space between icon and title */
   }
 `;

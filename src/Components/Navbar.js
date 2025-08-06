@@ -43,7 +43,6 @@ function Navbar() {
                                 points="39 0 0 22 0 67 39 90 78 68 78 23"
                                 style={{ stroke: "#f9c74f" }}
                             ></polygon>
-                            {/* Letter S inside the hexagon */}
                             <text
                                 x="50%"
                                 y="50%"
@@ -65,14 +64,16 @@ function Navbar() {
             <div
                 style={{
                     display: "flex",
-                    gap: "1.5rem", // Reduced spacing between items
+                    gap: "1.2rem",
                     alignItems: "center",
-                    fontSize: "1.8rem", // Increased font size for the text
+                    fontSize: "1.8rem",
                     color: "#fff",
+                    paddingRight: "1.5rem", 
+                    paddingLeft: "0.5rem"
                 }}
             >
-                <div style={{ display: "flex", alignItems: "center", fontSize: "1.8rem" }}>
-                    <BsFillPersonFill style={{ fill: "#f9c74f", marginRight: "0.5rem", fontSize: "2rem" }} />
+                <div style={{ display: "flex", alignItems: "center", fontSize: "1.2rem" }}>
+                    <BsFillPersonFill style={{ fill: "#f9c74f", marginRight: "0.2rem", fontSize: "1.5rem" }} />
                     <Link
                         to="About"
                         smooth={true}
@@ -87,8 +88,8 @@ function Navbar() {
                         About
                     </Link>
                 </div>
-                <div style={{ display: "flex", alignItems: "center", fontSize: "1.8rem" }}>
-                    <BsCodeSlash style={{ fill: "#f9c74f", marginRight: "0.5rem", fontSize: "2rem" }} />
+                <div style={{ display: "flex", alignItems: "center", fontSize: "1.2rem" }}>
+                    <BsCodeSlash style={{ fill: "#f9c74f", marginRight: "0.2rem", fontSize: "1.5rem" }} />
                     <Link
                         to="Projects"
                         smooth={true}
@@ -103,8 +104,8 @@ function Navbar() {
                         Projects
                     </Link>
                 </div>
-                <div style={{ display: "flex", alignItems: "center", fontSize: "1.8rem" }}>
-                    <BsFileTextFill style={{ fill: "#f9c74f", marginRight: "0.5rem", fontSize: "2rem" }} />
+                <div style={{ display: "flex", alignItems: "center", fontSize: "1.2rem" }}>
+                    <BsFileTextFill style={{ fill: "#f9c74f", marginRight: "0.2rem", fontSize: "1.5rem" }} />
                     <Link
                         to="Career"
                         smooth={true}
@@ -119,8 +120,8 @@ function Navbar() {
                         Career
                     </Link>
                 </div>
-                <div style={{ display: "flex", alignItems: "center", fontSize: "1.8rem" }}>
-                    <BsFillEnvelopeFill style={{ fill: "#f9c74f", marginRight: "0.5rem", fontSize: "2rem" }} />
+                <div style={{ display: "flex", alignItems: "center", fontSize: "1.2rem" }}>
+                    <BsFillEnvelopeFill style={{ fill: "#f9c74f", marginRight: "0.2rem", fontSize: "1.5rem" }} />
                     <Link
                         to="Contact"
                         smooth={true}

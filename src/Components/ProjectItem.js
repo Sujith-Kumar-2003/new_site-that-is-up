@@ -80,21 +80,21 @@ const TextContentSection = styled.article`
 const Title = styled.h2`
   font-size: 24px;
   color: #F9C74F; /* Gold color */
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 `;
 
 // Define the description styling
 const Description = styled.p`
   color: var(--secondText);
   font-size: 16px;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   line-height: 1.5;
   text-align: justify; /* Justify the description text */
 `;
 
 // Define the list of tools styling
 const ToolsList = styled.ul`
-  margin-bottom: 8px;
+  margin-bottom: 2px;
   color: var(--secondText);
   padding-left: 0;
   list-style-type: none;
@@ -103,7 +103,7 @@ const ToolsList = styled.ul`
 // Define each tool item styling
 const ToolItem = styled.li`
   display: inline-block;
-  padding-right: 8px;
+  // padding-right: 8px;
   font-size: 14px;
 `;
 
@@ -111,8 +111,8 @@ const ToolItem = styled.li`
 const LinkSection = styled.div`
   display: flex;
   justify-content: flex-end; /* Align icons to the right */
-  gap: 10px;
-  margin-top: 12px;
+  gap: 5px;
+  margin-top: 1px;
 `;
 
 // Define the styling for each link (GitHub and website)

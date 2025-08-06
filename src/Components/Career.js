@@ -126,43 +126,43 @@ function ExperienceItem({ experience }) {
 
 function Career() {
   const styles = {
-    section: {
-      paddingTop: "2rem",
-      marginBottom: "15vh",
-      backgroundColor: "#212121", // Set the background color to grey
-    },
-    header: {
-      display: "flex",
-      flexDirection: "row",
-      alignItems: "center",
-      fontSize: "clamp(20px, 6vw, 35px)",
-      marginBottom: "5vh",
-    },
-    icon: {
-      fill: "#F9C74F", // Primary color
-    },
-    title: {
-      padding: "0.5rem",
-    },
-    container: {
-      display: "flex",  // This makes the container a flex container
-      flexDirection: "row",  // Items will be placed horizontally
-      paddingTop: "1.5rem",
-      alignItems: "flex-start",
-      justifyContent: "space-between",  // Optional: To add space between experience and education
-    },
-    experienceContainer: {
-      width: "60%",  // Adjust the width of the experience section
-    },
-    educationContainer: {
-      width: "35%",  // Adjust the width of the education section
-      marginLeft: "5%",  // Add some space between the sections
-    },
-    sectionTitle: {
-      fontSize: "2.5rem",
-      paddingBottom: "4vh",
-    },
-  };
+  section: {
+    paddingTop: "1rem", // Reduced top padding
+    marginBottom: "15vh",
+    backgroundColor: "#212121",
+  },
+  header: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    fontSize: "clamp(20px, 6vw, 35px)",
+    marginBottom: "2vh", // Reduced bottom margin
+  },
+  icon: {
+    fill: "#F9C74F",
+  },
+  title: {
+    padding: "0.5rem",
+  },
+  container: {
+    display: "flex",
+    flexDirection: "row",
+    paddingTop: "1.5rem",
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+  },
+  experienceContainer: {
+    width: "60%",
+  },
+  educationContainer: {
+    width: "35%",
+    marginLeft: "5%",
+  },
+  sectionTitle: {
+    fontSize: "2.5rem",
+    paddingBottom: "2vh", // optional tweak
+  },
+};
 
   return (
       <section style={styles.section}>

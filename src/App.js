@@ -54,23 +54,23 @@ function App() {
   return (
       <div className="App" style={appStyles}>
         <Navbar />
-        <main style={{ width: "60%", margin: "0 auto", paddingTop: "5rem" }}>
+        <main style={{ width: "70%", margin: "0 auto", paddingTop: "1rem",paddingBottom: "60px" }}>
           <section id="Hero" style={sectionStyles}>
             <Hero />
           </section>
-          <hr style={{ margin: "1rem 0", borderTop: "1px solid #F9C74F" }} />
+          <hr style={{ margin: "0.5rem 0", marginTop: "120px", borderTop: "1px solid #F9C74F" }} />
           <section id="About" style={sectionStyles}>
             <About />
           </section>
-          <hr style={{ margin: "1rem 0", borderTop: "1px solid #F9C74F" }} />
+          <hr style={{ margin: "0.5rem 0", borderTop: "1px solid #F9C74F" }} />
           <section id="Projects" style={sectionStyles}>
             <Projects />
           </section>
-          <hr style={{ margin: "1rem 0", borderTop: "1px solid #F9C74F" }} />
+          <hr style={{ margin: "0.5rem 0", borderTop: "1px solid #F9C74F" }} />
           <section id="Career" style={sectionStyles}>
             <Career />
           </section>
-          <hr style={{ margin: "1rem 0", borderTop: "1px solid #F9C74F" }} />
+          <hr style={{ margin: "0.5rem 0", borderTop: "1px solid #F9C74F" }} />
           <section id="Contact" style={sectionStyles}>
             <Contact />
           </section>

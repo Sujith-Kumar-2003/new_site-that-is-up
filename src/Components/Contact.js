@@ -11,15 +11,15 @@ function Contact() {
       alignItems: "center",
       height: "auto",
       textAlign: "center",
-      paddingBottom: "12vh",
-      marginTop: "2.5rem",
+      paddingBottom: "4vh",
+      marginTop: "0.5rem",
     },
     header: {
       display: "flex",
       flexDirection: "row",
       alignItems: "center",
       fontSize: "clamp(20px, 6vw, 35px)",
-      marginBottom: "2.5rem",
+      marginBottom: "0.5rem",
     },
     icon: {
       fill: "#F9C74F", // Primary color

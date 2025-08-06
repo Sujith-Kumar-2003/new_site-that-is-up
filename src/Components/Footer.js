@@ -10,7 +10,7 @@ function Footer() {
       flexDirection: "column",
       justifyContent: "space-between",
       alignItems: "center",
-      padding: "4rem", // Increased padding for more spacing
+      padding: "1rem", // Increased padding for more spacing
     },
     textContainer: {
       display: "flex",

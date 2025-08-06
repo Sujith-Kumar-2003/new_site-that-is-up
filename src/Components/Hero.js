@@ -25,7 +25,7 @@ function Hero() {
       flexDirection: "column",
       justifyContent: "flex-start",
       alignItems: "flex-start",
-      marginTop: "18vh",
+      marginTop: "6vh",
       height: "80vh",
       padding: "0 1rem",
       marginLeft: "auto",
@@ -105,8 +105,12 @@ function Hero() {
               rel="noopener noreferrer"
           >
             Check out my Images!
-          </a>
+            </a>
+    
+        
         </div>
+
+        
       </section>
   );
 }

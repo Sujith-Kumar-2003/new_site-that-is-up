@@ -6,7 +6,7 @@ function About() {
   // Define the styles as objects
   const styles = {
     section: {
-      paddingTop: "2rem",
+      paddingTop: "40px",
       marginBottom: "5vh",
     },
     header: {
@@ -19,14 +19,14 @@ function About() {
       fill: "#f9c74f", // Adjust the color based on your primary color
     },
     title: {
-      padding: ".5rem",
+      padding: "0",
     },
     container: {
       display: "flex",
       flexDirection: "row", // Align text and image in a row
       justifyContent: "space-between", // Space out the text and image
       alignItems: "center", // Align items vertically centered
-      paddingTop: "1.5rem",
+      paddingTop: "0rem",
       gap: "2rem", // Added a gap between the article and aside
     },
     article: {
@@ -36,7 +36,7 @@ function About() {
       color: "#ccc", // Adjust to match the second text color
       fontSize: "clamp(14px, 5vw, 18px)",
       maxWidth: "580px",
-      marginBottom: "2rem",
+      marginBottom: "1rem",
     },
     spanPrimary: {
       color: "#f9c74f", // Adjust to match your primary color
