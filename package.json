@@ -1,7 +1,8 @@
 {
-  "name": "Sujith-Kumar-site",
+  "name": "sujith_site",
   "version": "0.1.0",
   "private": true,
+  
   "homepage": "https://sujith-kumar-2003.github.io/new_site-that_is_up",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
