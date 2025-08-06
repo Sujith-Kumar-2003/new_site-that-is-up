@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/new_site-that-is-up/static/css/main.4b31603b.css",
+    "main.js": "/new_site-that-is-up/static/js/main.b605284c.js",
+    "static/js/453.742e5df8.chunk.js": "/new_site-that-is-up/static/js/453.742e5df8.chunk.js",
+    "static/media/tabinator.png": "/new_site-that-is-up/static/media/tabinator.53abf79a36c717060d30.png",
+    "static/media/kirkview.png": "/new_site-that-is-up/static/media/kirkview.e449a0df6a801884135e.png",
+    "static/media/me.png": "/new_site-that-is-up/static/media/me.a49cb054955b9c468c8a.png",
+    "static/media/studyBrew.jpg": "/new_site-that-is-up/static/media/studyBrew.e83f8395d3b83d7f12e6.jpg",
+    "static/media/desyncron_site.png": "/new_site-that-is-up/static/media/desyncron_site.bab605a5b2c3d656ee73.png",
+    "static/media/marketPath.png": "/new_site-that-is-up/static/media/marketPath.d8096cc743e99f7e29ff.png",
+    "static/media/wildwatcher.png": "/new_site-that-is-up/static/media/wildwatcher.7f6321221b256d0d964f.png",
+    "index.html": "/new_site-that-is-up/index.html",
+    "main.4b31603b.css.map": "/new_site-that-is-up/static/css/main.4b31603b.css.map",
+    "main.b605284c.js.map": "/new_site-that-is-up/static/js/main.b605284c.js.map",
+    "453.742e5df8.chunk.js.map": "/new_site-that-is-up/static/js/453.742e5df8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b31603b.css",
+    "static/js/main.b605284c.js"
+  ]
+}
